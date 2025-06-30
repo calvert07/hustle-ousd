@@ -1,0 +1,29 @@
+Start
+
+1. User sets the alarm time:
+   - Example: User selects 7:00 AM.
+   - Example: User selects Monday.
+
+2. Get the current time.
+   - Example: Current time is 6:59 AM.
+
+3. Check if current time equals the alarm time.
+   - If 7:00 AM equals 7:00 AM, continue.
+
+4. If the time equals alarm time:
+    a. Play alarm sound.
+    b. Display: "Do you want to snooze or stop?"
+       i. If user selects snooze:
+           - Wait 5 minutes.
+           - Alarm will ring again at 7:05 AM.
+           - Play alarm sound again.
+           - Ask again to snooze or stop.
+           - Repeat until user selects stop.
+       ii. If user selects stop:
+           - Stop alarm sound.
+           - End the program.
+
+5. If current time does not equal alarm time:
+    - Wait (loop) and keep checking every minute until the alarm time is reached.
+
+End
